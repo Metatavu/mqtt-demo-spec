@@ -123,7 +123,7 @@ components:
     machineType:
       description: The ID of the streetlight.
       schema:
-        $ref: "#/components/schemas/sentAt"
+        type: string
     machineCode:
       description: Machine code
       schema:
