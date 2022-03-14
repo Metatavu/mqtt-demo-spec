@@ -62,13 +62,15 @@ components:
         id:
           type: string
           description: ID of the machine
-        sentAt:
-          $ref: "#/components/schemas/sentAt"
-
-    sentAt:
-      type: string
-      format: date-time
-      description: Date and time when the message was sent.
+    TEST:
+      type: object
+      properties:
+        machineCode:
+          type: string
+          description: Machine code
+        id:
+          type: string
+          description: ID of the machine
 
   securitySchemes:
     apiKey:
