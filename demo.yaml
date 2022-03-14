@@ -51,6 +51,14 @@ components:
         - $ref: '#/components/messageTraits/commonHeaders'
       payload:
         $ref: "#/components/schemas/GetAllowedUsersMessage"
+    test:
+      name: test
+      title: Gets list of allowed users
+      contentType: application/json
+      traits:
+        - $ref: '#/components/messageTraits/commonHeaders'
+      payload:
+        $ref: "#/components/schemas/TEST"
 
   schemas:
     GetAllowedUsersMessage:
